@@ -19,7 +19,7 @@ int main(){
             vec2 = vec1;
 
             for(int i = 0; i < 1000; i++){
-                cout << "Submsion of two valuse = " << vec1[i] + vec2[i] << " and it's RUN at THREAD NO. = " << omp_get_thread_num() << endl;
+                cout << "Submssion of two valuse = " << vec1[i] + vec2[i] << " and it's RUN at THREAD NO. = " << omp_get_thread_num() << endl;
                 Sum += (vec1[i] + vec2[i]);
             } 
         }   
